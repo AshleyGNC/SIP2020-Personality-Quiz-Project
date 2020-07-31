@@ -1,0 +1,56 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background: url("https://i.pinimg.com/originals/f3/98/9e/f3989e431422a23123fc19fcc43f8d2e.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-style: bold;
+  font-size: 46px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  background-color: #8b6f47;
+  color: black;
+}
+
+h2 {
+  margin-top: 2em;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  width: 1000px;
+  height: 45px;
+}
+
+button {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-style: bold;
+  border-radius: 16px;
+  background-color: #d6cbd3;
+  color: black;
+  margin: 1em;
+  width: 255px;
+  height: 45px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+
+.answer-choice img {
+  height: 10em;
+  width: 15em;
+  margin: 1em;
+  border-radius: 10px;
+  border: 2px solid black;
+}
